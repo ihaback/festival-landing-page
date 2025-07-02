@@ -5,7 +5,6 @@
     box-sizing: border-box;
   }
 
-  /* https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/ */
   html {
     -moz-text-size-adjust: none;
     -webkit-text-size-adjust: none;
@@ -24,8 +23,7 @@
   dd {
     margin: 0;
   }
-
-  /* https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html */
+ 
   [role="list"] {
     list-style: none;
     margin: 0;
@@ -100,6 +98,7 @@
     --clr-purple-700: hsl(270, 30%, 21%);
     --clr-purple-800: hsl(270, 35%, 16%);
     --clr-purple-900: hsl(270, 40%, 12%);
+   
     --ff-heading: "Outfit", sans-serif;
     --ff-body: "Fira Sans", sans-serif;
 
@@ -124,7 +123,6 @@
     }
   }
 
-  /* in another selector for syntax highlighting reasons only */
   :root {
     --text-main: var(--clr-gray-100);
     --text-high-contrast: var(--clr-white);
@@ -229,7 +227,6 @@
     margin-inline: auto;
     padding-inline: var(--wrapper-padding);
 
-    /* helps to match the Figma file */
     box-sizing: content-box;
   }
 
@@ -416,7 +413,6 @@
     padding-block: 2rem;
     text-align: center;
 
-    /* either use .grid-flow and change the --grid-flow-spacing, or do this */
     display: grid;
     gap: 2rem;
 
