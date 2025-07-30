@@ -73,31 +73,31 @@
 @layer base {
   :root {
     --clr-white: hsl(0, 0%, 100%);
-    --clr-gray-100: hsl(0, 2%, 79%);
-    --clr-amber-400: hsl(45, 80%, 55%);
-    --clr-amber-500: hsl(45, 80%, 45%);
-    --clr-amber-600: hsl(45, 80%, 25%);
-    --clr-amber-700: hsl(45, 80%, 20%);
-    --clr-amber-800: hsl(45, 80%, 14%);
-    --clr-amber-900: hsl(45, 80%, 10%);
-    --clr-teal-400: hsl(170, 45%, 50%);
-    --clr-teal-500: hsl(170, 50%, 40%);
-    --clr-teal-600: hsl(170, 60%, 30%);
-    --clr-teal-300: hsl(170, 40%, 60%);
-    --clr-teal-700: hsl(170, 65%, 25%);
-    --clr-teal-800: hsl(170, 70%, 18%);
-    --clr-teal-900: hsl(170, 75%, 12%);
+    --clr-neutral-100: hsl(0, 2%, 79%);
+    --clr-accent-400: hsl(45, 80%, 55%);
+    --clr-accent-500: hsl(45, 80%, 45%);
+    --clr-accent-600: hsl(45, 80%, 25%);
+    --clr-accent-700: hsl(45, 80%, 20%);
+    --clr-accent-800: hsl(45, 80%, 14%);
+    --clr-accent-900: hsl(45, 80%, 10%);
+    --clr-secondary-400: hsl(170, 45%, 50%);
+    --clr-secondary-500: hsl(170, 50%, 40%);
+    --clr-secondary-600: hsl(170, 60%, 30%);
+    --clr-secondary-300: hsl(170, 40%, 60%);
+    --clr-secondary-700: hsl(170, 65%, 25%);
+    --clr-secondary-800: hsl(170, 70%, 18%);
+    --clr-secondary-900: hsl(170, 75%, 12%);
     --clr-brand-300: hsl(15, 90%, 85%);
     --clr-brand-400: hsl(15, 80%, 70%);
     --clr-brand-500: hsl(15, 60%, 58%);
     --clr-brand-600: hsl(15, 50%, 45%);
     --clr-brand-700: hsl(15, 45%, 35%);
     --clr-brand-800: hsl(15, 40%, 25%);
-    --clr-purple-500: hsl(270, 20%, 35%);
-    --clr-purple-600: hsl(270, 25%, 28%);
-    --clr-purple-700: hsl(270, 30%, 21%);
-    --clr-purple-800: hsl(270, 35%, 16%);
-    --clr-purple-900: hsl(270, 40%, 12%);
+    --clr-primary-500: hsl(270, 20%, 35%);
+    --clr-primary-600: hsl(270, 25%, 28%);
+    --clr-primary-700: hsl(270, 30%, 21%);
+    --clr-primary-800: hsl(270, 35%, 16%);
+    --clr-primary-900: hsl(270, 40%, 12%);
 
     --ff-heading: "Outfit", sans-serif;
     --ff-body: "Fira Sans", sans-serif;
@@ -124,26 +124,26 @@
   }
 
   :root {
-    --text-main: var(--clr-gray-100);
+    --text-main: var(--clr-neutral-100);
     --text-high-contrast: var(--clr-white);
-    --text-accent-light: var(--clr-amber-400);
-    --text-accent: var(--clr-amber-500);
+    --text-accent-light: var(--clr-accent-400);
+    --text-accent: var(--clr-accent-500);
 
-    --background-accent-light: var(--clr-amber-400);
-    --background-accent-main: var(--clr-amber-500);
-    --background-accent-dark: var(--clr-amber-600);
+    --background-accent-light: var(--clr-accent-400);
+    --background-accent-main: var(--clr-accent-500);
+    --background-accent-dark: var(--clr-accent-600);
 
-    --background-extra-light: var(--clr-purple-500);
-    --background-light: var(--clr-purple-600);
-    --background-main: var(--clr-purple-700);
-    --background-dark: var(--clr-purple-800);
-    --background-extra-dark: var(--clr-purple-900);
+    --background-extra-light: var(--clr-primary-500);
+    --background-light: var(--clr-primary-600);
+    --background-main: var(--clr-primary-700);
+    --background-dark: var(--clr-primary-800);
+    --background-extra-dark: var(--clr-primary-900);
 
     --tag-pop: var(--clr-brand-600);
     --tag-electronic: var(--clr-brand-700);
-    --tag-main: var(--clr-teal-500);
-    --tag-tent: var(--clr-teal-600);
-    --tag-amp: var(--clr-teal-700);
+    --tag-main: var(--clr-secondary-500);
+    --tag-tent: var(--clr-secondary-600);
+    --tag-amp: var(--clr-secondary-700);
 
     --font-size-heading-sm: var(--fs-700);
     --font-size-heading-regular: var(--fs-800);
